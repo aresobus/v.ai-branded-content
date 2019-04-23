@@ -1,7 +1,7 @@
 {
-  "name": "concerto-gui",
+  "name": "v.ai-player",
   "version": "1.0.0",
-  "description": "",
+  "description": "First version of a player with object recognition",
   "main": "index.js",
   "scripts": {
     "start": "babel-node src/js/server.js --presets es2015,stage-2",
@@ -9,7 +9,8 @@
     "build": "gulp dist",
     "postinstall": "gulp dist"
   },
-  "author": "",
+  "author": "Alex Lebedyev",
+  "email": "oleksandr.lebedyev@nbcuni.com",
   "license": "ISC",
   "engines": {
     "node": "6.9.1"
